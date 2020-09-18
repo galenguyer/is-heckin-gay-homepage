@@ -1,0 +1,12 @@
+:root {
+    --secondary-color: #eceeef;
+    --tertiary-color: #5c6370;
+}
+
+.header {
+    background-color: var(--tertiary-color);
+}
+
+.header h1 {
+    color: var(--secondary-color);
+}

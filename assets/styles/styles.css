@@ -1,0 +1,64 @@
+
+
+@font-face {
+    font-family: 'Varela Round';
+    src: url('../fonts/VarelaRound-Regular.woff2') format('woff2'),
+        url('../fonts/VarelaRound-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+}
+
+@media only screen and (max-width: 550px) {
+    .header {
+        text-align: center;
+    }
+}
+
+
+.header h1 {
+    font-family: 'Varela Round'; font-weight: normal; font-style: normal;
+    margin: 0;
+
+}
+    
+
+
+.header {
+    height: 5em;
+    width: 100%;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    box-sizing: border-box;
+    border-bottom: 5px solid;
+    border-image:linear-gradient(to right,
+    #c55b5b 0%, #c55b5b 16.7%,
+    #d6a05e 16.7%, #d6a05e 33.4%,
+    #d6cd5e 33.4%, #d6cd5e 50.1%,
+    #49855b 50.1%, #49855b 66.8%,
+    #5e82d6 66.8%, #5e82d6 83.5%,
+    #834f8b 83.5%, #834f8b 100.2%) 10;
+}
+
+.header .logo {
+    width: 5em;
+    margin-right: 1em;
+    height: auto;
+
+    
+}
+    
+
+
+#gayicon {
+    float: left;
+    background-image: url(../images/Pride_Flag.svg);
+    background-size: auto;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 0 5px 0 5px;
+    color: #eceeef;
+}
