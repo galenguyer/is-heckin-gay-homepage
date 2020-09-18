@@ -19,7 +19,7 @@ body {
 }
 
 
-.header h1 {
+h1 {
     font-family: 'Varela Round'; font-weight: normal; font-style: normal;
     margin: 0;
 
@@ -35,12 +35,7 @@ body {
     box-sizing: border-box;
     border-bottom: 5px solid;
     border-image:linear-gradient(to right,
-    #c55b5b 0%, #c55b5b 16.7%,
-    #d6a05e 16.7%, #d6a05e 33.4%,
-    #d6cd5e 33.4%, #d6cd5e 50.1%,
-    #49855b 50.1%, #49855b 66.8%,
-    #5e82d6 66.8%, #5e82d6 83.5%,
-    #834f8b 83.5%, #834f8b 100.2%) 10;
+    #c55b5b 0%, #d6a05e 16.7%, #d6cd5e 33.4%, #49855b 50.1%, #5e82d6 66.8%, #834f8b 83.5%, #834f8b 100.2%) 10;
 }
 
 .header .logo {
@@ -59,7 +54,7 @@ body {
 
 #gayicon {
     float: left;
-    background-image: url(/assets/images/Pride_Flag.svg);
+    background: -moz-linear-gradient(-45deg, #c55b5b 0%, #c55b5b 16.7%, #d6a05e 16.7%, #d6a05e 33.4%, #d6cd5e 33.4%, #d6cd5e 50.1%, #49855b 50.1%, #49855b 66.8%, #5e82d6 66.8%, #5e82d6 83.5%, #834f8b 83.5%, #834f8b 100.2%);
     background-size: auto;
     border-radius: 5px;
     margin-left: 5px;
@@ -71,6 +66,25 @@ body {
 .about {
     box-sizing: border-box;
     margin: 2em 5% 2em 5%;
+    padding: 1em;
     width: 90%;
-    height: 50px;
+    border-radius: 20px;
 }
+
+h2 {
+    font-family: 'Varela Round'; font-weight: normal; font-style: normal;
+    margin: 0;
+}
+
+p {
+    font-family: 'Varela Round'; font-weight: normal; font-style: normal;
+    margin: 0;
+}
+
+hr {
+    height: 4px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    background: -moz-linear-gradient(left, #c55b5b 0%, #d6a05e 16.7%, #d6cd5e 33.4%, #49855b 50.1%, #5e82d6 66.8%, #834f8b 83.5%, #834f8b 100.2%);
