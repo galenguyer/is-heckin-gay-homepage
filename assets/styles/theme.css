@@ -1,6 +1,11 @@
 :root {
-    --secondary-color: #eceeef;
+    --secondary-color:  #383c41;
+    --font-color: #eceeef;
     --tertiary-color: #5c6370;
+}
+
+body {
+    background-color: var(--secondary-color);
 }
 
 .header {
@@ -8,5 +13,9 @@
 }
 
 .header h1 {
-    color: var(--secondary-color);
+    color: var(--font-color);
+}
+
+.about {
+    background-color: var(--tertiary-color)
 }
