@@ -9,7 +9,7 @@ body {
     background-color: var(--secondary-color);
 }
 
-.header {
+#header {
     background-color: var(--primary-color);
 }
 
@@ -29,3 +29,6 @@ p {
     color: var(--font-color);
 }
 
+#footer {
+    background-color: var(--primary-color);
+}

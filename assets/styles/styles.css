@@ -7,13 +7,18 @@
     font-weight: normal;
     font-style: normal;
 }
+html, body {
+    height: 100%;
+}
 
 body {
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 @media only screen and (max-width: 550px) {
-    .header {
+    #header {
         text-align: center;
     }
 }
@@ -27,7 +32,7 @@ h1 {
     
 
 
-.header {
+#header {
     min-height: 5em;
     width: 100%;
     padding-left: 1.5em;
@@ -38,14 +43,14 @@ h1 {
     #c55b5b 0%, #d6a05e 16.7%, #d6cd5e 33.4%, #49855b 50.1%, #5e82d6 66.8%, #834f8b 83.5%, #834f8b 100.2%) 10;
 }
 
-.header .logo {
+#header .logo {
     width: 5em;
     margin-right: 1em;
     height: auto;
     margin-top: 0.5em;
 }
 
-.header .header-text {
+#header .header-text {
     margin-bottom: 0.5em;
     display: inline-block;
 }
@@ -88,3 +93,15 @@ hr {
     margin-left: 0.5em;
     margin-right: 0.5em;
     background: -moz-linear-gradient(left, #c55b5b 0%, #d6a05e 16.7%, #d6cd5e 33.4%, #49855b 50.1%, #5e82d6 66.8%, #834f8b 83.5%, #834f8b 100.2%);
+}
+
+#footer {
+    min-height: 5em;
+    width: 100%;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    box-sizing: border-box;
+    border-top: 5px solid;
+    border-image:linear-gradient(to right,
+    #c55b5b 0%, #d6a05e 16.7%, #d6cd5e 33.4%, #49855b 50.1%, #5e82d6 66.8%, #834f8b 83.5%, #834f8b 100.2%) 10;
+}
