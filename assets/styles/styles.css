@@ -2,8 +2,8 @@
 
 @font-face {
     font-family: 'Varela Round';
-    src: url('../fonts/VarelaRound-Regular.woff2') format('woff2'),
-        url('../fonts/VarelaRound-Regular.woff') format('woff');
+    src: url('/assets/fonts/VarelaRound-Regular.woff2') format('woff2'),
+        url('/assets/fonts/VarelaRound-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -59,7 +59,7 @@ body {
 
 #gayicon {
     float: left;
-    background-image: url(../images/Pride_Flag.svg);
+    background-image: url(/assets/images/Pride_Flag.svg);
     background-size: auto;
     border-radius: 5px;
     margin-left: 5px;
