@@ -5,6 +5,10 @@
     --primary-color: #5c6370;
 }
 
+html {
+    scrollbar-color: var(--primary-color) var(--secondary-color);
+}
+
 body {
     background-color: var(--secondary-color);
 }
@@ -31,4 +35,16 @@ p {
 
 #footer {
     background-color: var(--primary-color);
+}
+
+.link {
+    color: var(--font-color);
+}
+
+#footer a, a:visited, a:hover, a:active {
+  color: var(--font-color);
+}
+
+.linkIcon {
+    fill: var(--font-color);
 }

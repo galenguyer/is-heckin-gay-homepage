@@ -60,8 +60,10 @@ h1 {
 #gayicon {
     float: left;
     background: -moz-linear-gradient(-45deg, #c55b5b 0%, #c55b5b 16.7%, #d6a05e 16.7%, #d6a05e 33.4%, #d6cd5e 33.4%, #d6cd5e 50.1%, #49855b 50.1%, #49855b 66.8%, #5e82d6 66.8%, #5e82d6 83.5%, #834f8b 83.5%, #834f8b 100.2%);
+    background: linear-gradient(-45deg, #c55b5b 0%, #c55b5b 16.7%, #d6a05e 16.7%, #d6a05e 33.4%, #d6cd5e 33.4%, #d6cd5e 50.1%, #49855b 50.1%, #49855b 66.8%, #5e82d6 66.8%, #5e82d6 83.5%, #834f8b 83.5%, #834f8b 100.2%);
+    background: -webkit-linear-gradient(-45deg, #c55b5b 0%, #c55b5b 16.7%, #d6a05e 16.7%, #d6a05e 33.4%, #d6cd5e 33.4%, #d6cd5e 50.1%, #49855b 50.1%, #49855b 66.8%, #5e82d6 66.8%, #5e82d6 83.5%, #834f8b 83.5%, #834f8b 100.2%);
     background-size: auto;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-left: 5px;
     padding: 0 5px 0 5px;
     color: #eceeef;
@@ -104,4 +106,22 @@ hr {
     border-top: 5px solid;
     border-image:linear-gradient(to right,
     #c55b5b 0%, #d6a05e 16.7%, #d6cd5e 33.4%, #49855b 50.1%, #5e82d6 66.8%, #834f8b 83.5%, #834f8b 100.2%) 10;
+}
+
+.linkIcon {
+    height: 0.9em;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.2em
+}
+
+.link {
+    display: inline-block;
+    font-family: 'Varela Round'; font-weight: normal; font-style: normal;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+#footerLinks {
+    margin: 1.5em;
 }
