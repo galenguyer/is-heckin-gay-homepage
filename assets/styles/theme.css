@@ -21,7 +21,7 @@ h1 {
     color: var(--font-color);
 }
 
-.about {
+.contentcontainer {
     background-color: var(--primary-color)
 }
 

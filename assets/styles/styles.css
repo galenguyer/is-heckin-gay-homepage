@@ -22,8 +22,14 @@ body {
         text-align: center;
     }
     
+    .header-text {
+        margin-bottom: 0;
+    }
     #footer {
         text-align: center;
+    }
+    #rightlink {
+        float: none !important;
     }
 }
 
@@ -37,7 +43,7 @@ h1 {
 
 
 #header {
-    min-height: 5em;
+    padding-bottom: 0.3em;
     width: 100%;
     padding-left: 1.5em;
     padding-right: 1.5em;
@@ -45,6 +51,7 @@ h1 {
     border-bottom: 5px solid;
     border-image:linear-gradient(to right,
     #c55b5b 0%, #d6a05e 16.7%, #d6cd5e 33.4%, #49855b 50.1%, #5e82d6 66.8%, #834f8b 83.5%, #834f8b 100.2%) 10;
+    margin-bottom: 2em;
 }
 
 #header .logo {
@@ -74,9 +81,9 @@ h1 {
 }
 
 
-.about {
+.contentcontainer {
     box-sizing: border-box;
-    margin: 2em 5% 2em 5%;
+    margin: 0 5% 2em 5%;
     padding: 1em;
     width: 90%;
     border-radius: 20px;
@@ -102,6 +109,7 @@ hr {
 }
 
 #footer {
+    overflow: hidden;
     min-height: 5em;
     width: 100%;
     padding-left: 1.5em;
@@ -124,8 +132,13 @@ hr {
     font-family: 'Varela Round'; font-weight: normal; font-style: normal;
     font-size: 1.3em;
     text-decoration: none;
+    
 }
 
 #footerLinks {
     margin: 1.5em;
+}
+
+#rightlink {
+    float: right;
 }
