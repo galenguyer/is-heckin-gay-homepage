@@ -149,3 +149,13 @@ footer {
 #rightlink {
     float: right;
 }
+
+img {
+    max-height: 60vh;
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
