@@ -150,7 +150,7 @@ footer {
     float: right;
 }
 
-img {
+.contentcontainer img {
     max-height: 60vh;
     max-width: 100%;
     object-fit: contain;
