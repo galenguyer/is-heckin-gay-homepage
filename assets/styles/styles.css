@@ -90,9 +90,10 @@ h1 {
     padding: 1em;
     width: 90%;
     border-radius: 20px;
+    line-height: 1.6;
 }
 
-h2 {
+h2, h3 {
     font-family: 'Varela Round'; font-weight: normal; font-style: normal;
     margin: 0;
 }

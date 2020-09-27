@@ -25,7 +25,7 @@ h1 {
     background-color: var(--primary-color)
 }
 
-h2 {
+h2, h3 {
     color: var(--font-color);
 }
 
